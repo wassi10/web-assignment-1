@@ -42,6 +42,75 @@
     color: white;
 
 }
+
+/* my failure */
+
+.my-failure{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-top: 140px;
+}
+.failure-prev-year{
+    display: flex;
+    gap: 130px;
+
+}
+
+.my-img{
+    width: 550px;
+    height: 720px;
+}
+
+.failure-year{
+    width: 300px;
+}
+.my-fail{
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 200px;
+}
+.description-fail{
+   padding-top: 30px;
+   font-weight: 400;
+    font-size: 16px;
+}
+
+
+/* my plans */
+.plans{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+.plans .my-fail{
+    text-align: center;
+    padding-bottom: 130px;
+}
+
+.my-plans{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    
+}
+.text-align{
+   
+   text-align: center;
+}
+.plan-title{
+
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px;
+    align-items: center;
+}
+
+.plan-des{
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(120, 117, 117);
+}
+
 /* footer */
 footer{
 
@@ -52,12 +121,11 @@ footer{
 
 .footer-items{
     display: flex;
-    gap: 200px;
+    gap: 90px;
 }
 
 .future{
-    padding-top: 130px;
-    padding-left: 230px;
+    padding: 100px 230px;
 }
 .future-title{
     font-weight: 700;
@@ -72,4 +140,33 @@ footer{
     color: white;
     padding-bottom: 35px;
 
+}
+
+.future .subs-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #F8F8F8;
+    padding-bottom: 30px;
+}
+
+input{
+    width: 325px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 5px 20px;
+    background: #151414;
+    border-color: #F8F8F8;
+    
+}
+.btn{
+    padding-top: 20px;
+}
+.button-subs{
+    width: 170.11px;
+    height: 50px;
+    background: white;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
 }
